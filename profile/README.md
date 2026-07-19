@@ -17,4 +17,8 @@ macOS · iOS · Android · web. → [LX8/Tupan](https://github.com/LX8/Tupan)
 - **mattermem** — local-only inventory store; backs Tupã Inventory.
 - **Tupã IDE** — native macOS IDE for intelligent software development (Rust, Slint, Metal).
 
+## Research
+
+- **Tupã Science** — local-first science workspace; home of the **Bipartite Universe Corpus**: 515 simulators, 8.7k+ pinned unit tests, an 18-audit anti-greenwashing dashboard, and a trained channel-router model. Open, reproducible, falsifiable.
+
 🌐 [lax8labs.com](https://lax8labs.com) · Germany
