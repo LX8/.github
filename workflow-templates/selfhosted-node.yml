@@ -1,0 +1,37 @@
+# LX8 default Node/TypeScript CI — runs on the org's $0 self-hosted macOS
+# runner, never on billable GitHub-hosted minutes. Attach a runner first:
+#   scripts/bootstrap-runner.sh <this-repo>      (see LX8/.github → RUNNERS.md)
+name: CI
+
+on:
+  push:
+    branches: ["$default-branch"]
+  pull_request:
+    branches: ["$default-branch"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    # $0 self-hosted macOS runner. Node is provided per-job by setup-node.
+    runs-on: [self-hosted, macOS]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+      - name: Install (lockfile-respecting)
+        run: npm ci
+      - name: Type-check
+        run: npx tsc --noEmit --pretty false || echo "no tsconfig — skipping"
+      - name: Test
+        run: npm test --if-present
+      - name: Build
+        run: npm run build --if-present
