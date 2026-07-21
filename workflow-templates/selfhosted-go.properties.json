@@ -1,0 +1,7 @@
+{
+  "name": "LX8 · Go CI (self-hosted, $0)",
+  "description": "gofmt + vet + test on the org's self-hosted macOS runner. No billable GitHub-hosted minutes.",
+  "iconName": "selfhosted-go",
+  "categories": ["Go", "Continuous integration"],
+  "filePatterns": ["go\\.mod$"]
+}

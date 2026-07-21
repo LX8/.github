@@ -1,0 +1,7 @@
+{
+  "name": "LX8 · Node/TS CI (self-hosted, $0)",
+  "description": "npm ci + typecheck + test + build on the org's self-hosted macOS runner. No billable GitHub-hosted minutes.",
+  "iconName": "selfhosted-node",
+  "categories": ["JavaScript", "TypeScript", "Continuous integration"],
+  "filePatterns": ["package\\.json$"]
+}

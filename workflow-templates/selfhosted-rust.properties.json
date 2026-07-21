@@ -1,0 +1,7 @@
+{
+  "name": "LX8 · Rust CI (self-hosted, $0)",
+  "description": "fmt + clippy + test on the org's self-hosted macOS runner. No billable GitHub-hosted minutes.",
+  "iconName": "selfhosted-rust",
+  "categories": ["Rust", "Continuous integration"],
+  "filePatterns": ["Cargo.toml$"]
+}
