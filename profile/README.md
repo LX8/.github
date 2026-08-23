@@ -8,7 +8,7 @@ We build tools we want to use ourselves.
 
 **Tupã** — the honest, local-first AI assistant that runs on your laptop:
 memory you can see, governance you can audit, zero per-token bills.
-macOS · iOS · Android · web. → [LX8/Tupan](https://github.com/LX8/Tupan)
+macOS · iOS · Android · web.
 
 ## Products
 
@@ -19,6 +19,6 @@ macOS · iOS · Android · web. → [LX8/Tupan](https://github.com/LX8/Tupan)
 
 ## Research
 
-- **Tupã Science** — local-first science workspace; home of the **Bipartite Universe Corpus**: 515 simulators, 8.7k+ pinned unit tests, an 18-audit anti-greenwashing dashboard, and a trained channel-router model. Open, reproducible, falsifiable.
+- **Tupã Science** — local-first science workspace; home of the **Bipartite Universe Corpus**: 56 simulators and 836 unit tests as published in the citable record ([DOI 10.5281/zenodo.20225097](https://doi.org/10.5281/zenodo.20225097)), plus an 18-audit anti-greenwashing dashboard and a trained channel-router model. Open, reproducible, falsifiable.
 
-🌐 [lax8labs.com](https://lax8labs.com) · Germany
+🌐 [lx8labs.com](https://lx8labs.com) · Germany
