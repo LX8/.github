@@ -1,7 +1,7 @@
-# Lx8 Labs
+# LX8 Labs
 
 **Small, fast, honest local-first software & open verification research.**  
-Berlin, Germany · [lx8labs.com](https://lx8labs.com) · [ORCID 0009-0009-0139-3700](https://orcid.org/0009-0009-0139-3700)
+Berlin, Germany · [lx8labs.com](https://lx8labs.com) · [LinkedIn (LX8 Labs)](https://www.linkedin.com/company/lx8labs) · [Founder LinkedIn](https://de.linkedin.com/in/lx8-alexei) · [YouTube](https://www.youtube.com/@lx8labs) · [ORCID 0009-0009-0139-3700](https://orcid.org/0009-0009-0139-3700)
 
 ---
 
@@ -18,6 +18,6 @@ Berlin, Germany · [lx8labs.com](https://lx8labs.com) · [ORCID 0009-0009-0139-3
 - **Reproducible Scientific Verification Corpus:** [doi:10.5281/zenodo.20359705](https://doi.org/10.5281/zenodo.20359705) — deterministic numerical verification, calibration, and anti-hallucination test suites.
 - **Millennium Problems Severe-Testing Audit (v1.2.0, Nov 2026):** [doi:10.5281/zenodo.24465984](https://doi.org/10.5281/zenodo.24465984) — zero-dependency Rust Wave 55 / Gate 74 audit (`94/94` release tests, `1/7` solved / `6/7` open lock, `S_Mayo = 1.0000`).
 - **83-Element WEP / Damour–Donoghue Null-Test Audit (v1.0.0, Nov 2026):** [doi:10.5281/zenodo.24473531](https://doi.org/10.5281/zenodo.24473531) — primary-source Weak Equivalence Principle coverage audit & reproducible composition-charge suite (`CONSISTENT-NOT-CONFIRMING`).
-- **Sovereign Local Tooling (In Development):** `aimem` (hybrid vector + FTS5 SQLCipher memory engine & MCP server), `Curupira` (local OS/MCP agent-containment & AST-taint firewall), and `Tupã` (local-first personal workspace).
+- **Sovereign Local Tooling (Beta):** `aimem` (hybrid vector + FTS5 SQLCipher memory engine & 20-tool MCP server), `Curupira` (read-only macOS/Android security guardian), and `Tupã` (local-first personal workspace).
 
-🌐 [lx8labs.com](https://lx8labs.com) · Berlin, Germany
+🌐 [lx8labs.com](https://lx8labs.com) · 💼 [linkedin.com/company/lx8labs](https://www.linkedin.com/company/lx8labs) · ▶️ [youtube.com/@lx8labs](https://www.youtube.com/@lx8labs) · ✉️ `hi@lx8labs.com` · Berlin, Germany
